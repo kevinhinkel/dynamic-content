@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    color: #222;
+}
+
+body {
+    font: 100% Helvetica, Verdana, Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    font-size: 400%;
+    line-height: 70px;
+}
+
+h3 {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+p {
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.button {
+    border: 1px solid white;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    width: 150px;
+    margin: 0 auto;
+}
+
+body button {
+    text-align: center;
+}
+
+#jumbotron a:hover {
+    background-color: white;
+    color: black;  
+}
+
+ 
+nav a {
+    float: right;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 93px;
+    margin-right: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#masthead {
+	background: black;
+	position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 99;
+}
+
+#logo {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 100px;
+    margin-left: 30px;
+    font-weight: bolder;
+    float: left;
+}
+
+#jumbotron {
+    background-image: url(images/purple-bg.jpeg);
+    background-size: cover;
+    padding-top: 120px;
+    height: 500px;
+  }
+
+
+#projects-container {
+    
+}
+
+#about-container  {
+    border-bottom: 1px solid lightgray;  
+}
+
+
+.grid {
+    margin-top: 19px;
+    margin-left: 19px;
+    overflow: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.projects-bg{
+    opacity: .4;
+
+}
+
+.thumbnail {
+    width: 45%;
+    height: 45%;
+    float: left;
+    margin: 1px 1px 1px 1px;
+}
+
+.thumbnail a:hover{
+    opacity: .4;
+    color: white;
+}
+
+
+.thumbnail {
+    position: relative;
+}
+
+.projects-bg {
+    /* opacity: 0.4; */
+    display: block;
+    position: relative;
+    z-index: -10;
+    width: 100%;
+}
+
+
+.projects-text {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.projects-text {
+    margin: 0;
+}
+
+
+
+
+
+footer {  
+    border-top: 1px solid lightgray;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    /* background-color: white; */
+    clear: both;
+}
+
+footer a:visited{
+    color : #333;
+}
+
+
